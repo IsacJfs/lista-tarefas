@@ -1,0 +1,42 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Roboto, sans-serif;
+    background-color: aliceblue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    padding: 30px;
+}
+
+input, button {
+    font-size: 20px;
+    padding: 8px;
+}
+
+button {
+    font-weight: bold;
+}
+
+ul li {
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 8PX;
+
+}
+
+.line-through {
+    text-decoration: line-through;
+}
